@@ -1974,16 +1974,24 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: solid black;
 			display: block;
-			margin: 0 0 1.5em 0;
+			/* margin: 0 0 1.5em 0; */
 			cursor: default;
 		}
+		.fab {
+			color: solid black;
+			display: block;
+			margin: 0 0 0.5em 0;
+			cursor: default;
+			
+		}
 
-			.icon.featured:before {
+			.fab {
 				font-size: 6em;
+				border: 0;
 			}
-
+			
 /* Wrappers */
 
 	.wrapper {
